@@ -1,0 +1,119 @@
+body {
+    font-family: 'Garamond', sans-serif;
+    color: #333;
+    background: #19ACE0;
+    margin: 0;
+    padding: 0;
+    animation: gradient 10s ease infinite;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 5px 2px 4px rgb(0, 0, 0, 0.8);
+}
+
+body::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1:first-of-type {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#my-school h1 {
+    color: white;
+}
+
+.box {
+    background-color: rgba(22, 190, 240, 0.6);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #fff;
+    text-align: center;
+}
+
+
+.content {
+    opacity: 0;
+}
+
+.fade-in {
+    animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+p {
+    text-align: justify;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: white; 
+}
+
+a:visited {
+    color: white; 
+}
+
+
+a:active {
+    color: white; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social-icons-container {
+    text-align: center;
+}
+
+.social-icons {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 0px;
+}
+
+.facebook-icon {
+    margin-right: 95px;
+}
+
+.linkedin-icon {
+    margin-right: 40px;
+}
